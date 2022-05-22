@@ -162,10 +162,10 @@ class ParticleSwarm:
                 )
 
                 self.particles_v[overboard_velocity_masks[0]] = (
-                    np.random.rand(np.sum(overboard_velocity_masks[0])) * v_max
+                    np.random.rand(np.sum(overboard_velocity_masks[0])) * self.v_max
                 )
                 self.particles_v[overboard_velocity_masks[1]] = (
-                    np.random.rand(np.sum(overboard_velocity_masks[1])) * -v_max
+                    np.random.rand(np.sum(overboard_velocity_masks[1])) * -self.v_max
                 )
 
             # updating particle position vectors
