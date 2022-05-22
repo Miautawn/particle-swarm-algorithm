@@ -64,3 +64,5 @@ animation = ScatterPlotAnimator(
     frame_n=n_iterations,
     frame_interval=frame_interval,
 )
+
+animation.render()

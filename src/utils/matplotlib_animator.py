@@ -73,6 +73,6 @@ class ScatterPlotAnimator:
 
     def render(self):
         """
-        Renders the animation to be displayed in jupyter notebooks
+        Renders the animation to be displayed in GUI
         """
-        return HTML(self.animation.to_html5_video())
+        return plt.show()
